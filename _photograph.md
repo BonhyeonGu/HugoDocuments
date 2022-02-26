@@ -20,5 +20,6 @@ draft: false</h2>
 <img src="photograph/02.jpg" alt="리눅스 스터디"></p>
 <h2 id="section-3">2014</h2>
 <p>2014 전국기능대회 정보통신 3과목<br>
-<img src="photograph/01.png" alt="고등학교 2학년"></p>
+<img src="photograph/01.png" alt="고등학교 2학년"><br>
+[작성한 문제](photograph/전국기능대회 1과목 문제 작성 구본현.pdf)</p>
 
