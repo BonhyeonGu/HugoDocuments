@@ -24,7 +24,7 @@ icon: user</h2>
 <p><strong>Introduce</strong> 🧑‍💼<br>
 Link :</p>
 <p><strong>Photograph</strong> 📸<br>
-Link :</p>
+<a href="https://docs.9bon.org/photograph/">https://docs.9bon.org/photograph/</a></p>
 <p><strong>ServerLog</strong> 🧰<br>
 <a href="https://docs.9bon.org/serverlog/">https://docs.9bon.org/serverlog/</a></p>
 
