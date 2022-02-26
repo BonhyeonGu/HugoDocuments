@@ -19,12 +19,12 @@ main:<br>
 weight: -10<br>
 params:<br>
 icon: user</h2>
-<p><strong>Contact</strong> 🙋</p>
-<p><a href="mailto:tayasriel@gmail.com">tayasriel@gmail.com</a></p>
-<p><strong>Introduce</strong> 🧑‍💼</p>
-<p>Link :</p>
-<p><strong>Photograph</strong> 📸</p>
-<p>Link :</p>
-<p><strong>ServerLog</strong> 🧰</p>
-<p><a href="https://docs.9bon.org/serverlog/">https://docs.9bon.org/serverlog/</a></p>
+<p><strong>Contact</strong> 🙋<br>
+<a href="mailto:tayasriel@gmail.com">tayasriel@gmail.com</a></p>
+<p><strong>Introduce</strong> 🧑‍💼<br>
+Link :</p>
+<p><strong>Photograph</strong> 📸<br>
+Link :</p>
+<p><strong>ServerLog</strong> 🧰<br>
+<a href="https://docs.9bon.org/serverlog/">https://docs.9bon.org/serverlog/</a></p>
 
