@@ -4,8 +4,8 @@
 ---
 
 <hr>
-<h2 id="title-도커-이미지-파일description-도커에서-컨테이너를-생성해-주는-이미지파일의-간단한-예제입니다.date-2022-01-02t0221440900categories-도커tags-containerimage-thum.pngdraft-false">title: “도커 이미지 파일”<br>
-description: “도커에서 컨테이너를 생성해 주는 이미지파일의 간단한 예제입니다.”<br>
+<h2 id="title-도커-파일description-도커에서-컨테이너를-생성해-주는-도커-파일의-간단한-예제입니다.date-2022-01-02t0221440900categories-도커tags-containerimage-thum.pngdraft-false">title: “도커 파일”<br>
+description: “도커에서 컨테이너를 생성해 주는 도커 파일의 간단한 예제입니다.”<br>
 date: 2022-01-02T02:21:44+09:00<br>
 categories: [“도커”]<br>
 tags: [“container”]<br>
@@ -17,8 +17,9 @@ draft: false</h2>
 <span class="token comment">#버전을 기록하지 않으면 최신 버전을 사용하게 된다.</span>
 <span class="token keyword">FROM</span> ubuntu<span class="token punctuation">:</span>16.04
 
-<span class="token comment">#작성자 정보, 필수는 아님</span>
-<span class="token keyword">MAINTAINER</span> <span class="token string">"tayasriel.@gmail.com"</span>
+<span class="token comment">#작성자 정보, 필수는 아님, 옛날에는 MAINTAINER을 사용했으나 대체됨</span>
+<span class="token keyword">LABEL</span> email=<span class="token string">"tayasriel@gmail.com"</span>
+<span class="token keyword">LABEL</span> name=<span class="token string">"BonhyeonGu"</span>
 
 <span class="token comment">#언어 설정, ENV 자체는 도커 이미지 환경변수를 조작한다.</span>
 <span class="token keyword">ENV</span> LC_ALL=C.UTF<span class="token punctuation">-</span>8
@@ -33,7 +34,8 @@ draft: false</h2>
 </code></pre>
 <h3 id="인터프리터">인터프리터</h3>
 <pre class=" language-docker"><code class="prism  language-docker"><span class="token keyword">FROM</span> ubuntu
-<span class="token keyword">MAINTAINER</span> <span class="token string">"tayasriel.@gmail.com"</span>
+<span class="token keyword">LABEL</span> email=<span class="token string">"tayasriel@gmail.com"</span>
+<span class="token keyword">LABEL</span> name=<span class="token string">"BonhyeonGu"</span>
 
 <span class="token keyword">RUN</span>  apt<span class="token punctuation">-</span>get update <span class="token punctuation">-</span>y &amp;&amp; \
  apt<span class="token punctuation">-</span>get install <span class="token punctuation">-</span>y python<span class="token punctuation">-</span>pip python<span class="token punctuation">-</span>dev
@@ -57,7 +59,8 @@ draft: false</h2>
 <h2 id="응용">응용</h2>
 <h3 id="ide-remote">IDE Remote</h3>
 <pre class=" language-docker"><code class="prism  language-docker"><span class="token keyword">FROM</span> ubuntu
-<span class="token keyword">MAINTAINER</span> <span class="token string">"tayasriel.@gmail.com"</span>
+<span class="token keyword">LABEL</span> email=<span class="token string">"tayasriel@gmail.com"</span>
+<span class="token keyword">LABEL</span> name=<span class="token string">"BonhyeonGu"</span>
 
 <span class="token keyword">ENV</span> LC_ALL=C.UTF<span class="token punctuation">-</span>8
 <span class="token keyword">ENV</span> LANG=C.UTF<span class="token punctuation">-</span>8
