@@ -4,11 +4,11 @@
 ---
 
 <hr>
-<h2 id="title-rdp--문제description-rdp-에서-겪었던-문제를-해결하는-것에-대한-서술입니다.date-2021-12-31t1138570900categories-윈도우tags-remote-desktop-shellimage-thum.pngdraft-false">title: “RDP  문제”<br>
+<h2 id="title-rdp--문제description-rdp-에서-겪었던-문제를-해결하는-것에-대한-서술입니다.date-2021-12-31t1138570900categories-윈도우tags-rdp-shellimage-thum.pngdraft-false">title: “RDP  문제”<br>
 description: “RDP 에서 겪었던 문제를 해결하는 것에 대한 서술입니다.”<br>
 date: 2021-12-31T11:38:57+09:00<br>
 categories: [“윈도우”]<br>
-tags: [“remote desktop”, “shell”]<br>
+tags: [“rdp”, “shell”]<br>
 image: “thum.png”<br>
 draft: false</h2>
 <h2 id="설명">설명</h2>
